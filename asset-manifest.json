@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/youtube-catch-caption/static/css/main.a9facb40.chunk.css",
-    "main.js": "/youtube-catch-caption/static/js/main.c4862360.chunk.js",
-    "main.js.map": "/youtube-catch-caption/static/js/main.c4862360.chunk.js.map",
+    "main.js": "/youtube-catch-caption/static/js/main.5fa2f8d6.chunk.js",
+    "main.js.map": "/youtube-catch-caption/static/js/main.5fa2f8d6.chunk.js.map",
     "runtime-main.js": "/youtube-catch-caption/static/js/runtime-main.efd137f8.js",
     "runtime-main.js.map": "/youtube-catch-caption/static/js/runtime-main.efd137f8.js.map",
     "static/js/2.65ea67b2.chunk.js": "/youtube-catch-caption/static/js/2.65ea67b2.chunk.js",
     "static/js/2.65ea67b2.chunk.js.map": "/youtube-catch-caption/static/js/2.65ea67b2.chunk.js.map",
     "index.html": "/youtube-catch-caption/index.html",
-    "precache-manifest.433af537544e1bb454de413feab6dd4d.js": "/youtube-catch-caption/precache-manifest.433af537544e1bb454de413feab6dd4d.js",
+    "precache-manifest.79fdac89fed4ed8a2819d0addcd93c0f.js": "/youtube-catch-caption/precache-manifest.79fdac89fed4ed8a2819d0addcd93c0f.js",
     "service-worker.js": "/youtube-catch-caption/service-worker.js",
     "static/css/main.a9facb40.chunk.css.map": "/youtube-catch-caption/static/css/main.a9facb40.chunk.css.map",
     "static/js/2.65ea67b2.chunk.js.LICENSE.txt": "/youtube-catch-caption/static/js/2.65ea67b2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.efd137f8.js",
     "static/js/2.65ea67b2.chunk.js",
     "static/css/main.a9facb40.chunk.css",
-    "static/js/main.c4862360.chunk.js"
+    "static/js/main.5fa2f8d6.chunk.js"
   ]
 }
