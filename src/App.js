@@ -2,19 +2,24 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
 function getCaptions(url, callBack) {
+  callBack("Fetching captions please wait ... ");
   axios.get(url).then(({ data }) => {
     console.log(data);
     callBack(extract(data));
+  })
+  .catch(err => {
+    callBack(`Oops something went wrong  ¯\\_(ツ)_/¯`);
   });
 }
 
 function extract(response) {
   var result_text = "";
+  response.events ?
   response.events.forEach(event => {
-    event.segs.forEach(seg => {
+    event.segs? event.segs.forEach(seg => {
       result_text += seg.utf8;
-    });
-  });
+    }): result_text += "";
+  }): result_text = "Sorry we were unable to process your request" ;
   return result_text;
 }
 
@@ -28,7 +33,7 @@ function App() {
         type="text"
         value={url}
         placeholder="Paste link here"
-        onChange={event => setUrl(event.target.value)}
+        onChange={event => {setUrl(event.target.value); setCaption("")}}
       ></input>
       <button
         className="button button-black"

@@ -2,6 +2,7 @@
   "name": "youtube-catch-caption",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kuncheria-kuruvilla.github.io/youtube-catch-caption",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
