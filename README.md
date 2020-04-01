@@ -1,3 +1,7 @@
+## See the app in action
+You can use the tool [here](https://kuncheria-kuruvilla.github.io/youtube-catch-caption/)
+
+In the project directory, you can run:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
